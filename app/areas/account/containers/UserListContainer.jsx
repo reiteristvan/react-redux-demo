@@ -3,7 +3,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import {
-    listUsersAsync
+    ListUsersAsync,
+    ListUsers
 } from '../Actions.jsx';
 
 import UserList from '../components/userList.jsx';
@@ -18,7 +19,8 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
     return {
         load: () => {
-            dispatch(listUsersAsync());
+            dispatch(ListUsersAsync());
+            //dispatch(ListUsers());
         }
     }
 };

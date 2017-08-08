@@ -3,9 +3,9 @@ import ajax from 'superagent';
 
 var loadUsers = () => {
     return [
-        { id: 1, name: 'alma', age: 12 },
-        { id: 2, name: 'alma', age: 12 },
-        { id: 3, name: 'alma', age: 12 }
+        { Id: 1, Name: 'alma', Age: 12 },
+        { Id: 2, Name: 'alma', Age: 12 },
+        { Id: 3, Name: 'alma', Age: 12 }
     ];
 };
 

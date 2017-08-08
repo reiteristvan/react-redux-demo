@@ -23,7 +23,7 @@ const ListReceived = (result) => {
     };
 };
 
-function listUsersAsync(){
+function ListUsersAsync(){
     return function(dispatch){
         dispatch(ListRequested());
 
@@ -39,5 +39,5 @@ export {
     LIST_USERS, ListUsers,
     LIST_REQUESTED, ListRequested,
     LIST_RECEIVED, ListReceived,
-    listUsersAsync
+    ListUsersAsync
 }
